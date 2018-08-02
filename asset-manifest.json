@@ -1,12 +1,11 @@
 {
-  "main.css": "static/css/main.d693b8d3.css",
-  "main.css.map": "static/css/main.d693b8d3.css.map",
-  "main.js": "static/js/main.f3602e90.js",
-  "main.js.map": "static/js/main.f3602e90.js.map",
+  "main.css": "static/css/main.e5ac7432.css",
+  "main.css.map": "static/css/main.e5ac7432.css.map",
+  "main.js": "static/js/main.10e5a07e.js",
+  "main.js.map": "static/js/main.10e5a07e.js.map",
   "static\\media\\camping-cover.jpg": "static/media/camping-cover.0c134b0d.jpg",
   "static\\media\\climbing-cover.jpg": "static/media/climbing-cover.a2491899.jpg",
+  "static\\media\\cover-photo.jpg": "static/media/cover-photo.13436b71.jpg",
   "static\\media\\explore-cover.jpg": "static/media/explore-cover.bb07819e.jpg",
-  "static\\media\\summer-2018-biking-cover.jpg": "static/media/summer-2018-biking-cover.13436b71.jpg",
-  "static\\media\\topography.svg": "static/media/topography.edea54f6.svg",
-  "static\\media\\uwcc-cover.jpg": "static/media/uwcc-cover.32f9ef4f.jpg"
+  "static\\media\\summer-2018-biking-cover.jpg": "static/media/summer-2018-biking-cover.13436b71.jpg"
 }
