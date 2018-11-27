@@ -1,0 +1,17 @@
+@import '../../media_querries.scss';
+@import '../../style.scss';
+
+.cover-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+h1, h2 {
+  color: $secondary-accent;
+}
+
+a.default {
+  text-decoration: underline;
+  color: $secondary-accent;
+}

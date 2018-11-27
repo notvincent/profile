@@ -22,9 +22,8 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-family: 'Poppins';
-        background-color: $background;
         color: $primary-accent-dark;
-
+        margin-top: $navbar-height;
     }
     h1, h2, h3, h4, h5 {
         font-weight: 300
@@ -37,5 +36,6 @@
     html, body {
         margin: 0;
         width: 100%;
+        background-color: $background;
     }
 </style>

@@ -3,8 +3,8 @@
         <router-link :to="{name: 'home'}" class="logo-container">
             <h1>OLIVER DOWD</h1>
         </router-link>
-        <router-link :to="{name: 'home'}" class="blog-container">
-            <!--<h2>Blog</h2>-->
+        <router-link :to="{name: 'blog'}" class="blog-container">
+            <h2>Blog</h2>
         </router-link>
     </div>
 </template>
