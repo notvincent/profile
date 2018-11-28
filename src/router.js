@@ -18,17 +18,22 @@ export default new Router({
         {
             path: '/everesting',
             name: 'everesting',
-            component: () => import(/* webpackChunkName: "Blog" */ './views/Blogs/Everesting')
+            component: () => import(/* webpackChunkName: "Everesting" */ './views/Blogs/Everesting')
         },
         {
             path: '/ftp_booster',
             name: 'ftp_booster',
-            component: () => import(/* webpackChunkName: "Blog" */ './views/Blogs/FtpBooster')
+            component: () => import(/* webpackChunkName: "FtpBooster" */ './views/Blogs/FtpBooster')
         },
         {
             path: '/zp_analysis',
             name: 'zp_analysis',
-            component: () => import(/* webpackChunkName: "Blog" */ './views/Blogs/ZpAnalysis')
+            component: () => import(/* webpackChunkName: "ZpAnalysis" */ './views/Blogs/ZpAnalysis')
+        },
+        {
+            path: '/coming_soon',
+            name: 'coming_soon',
+            component: () => import(/* webpackChunkName: "ComingSoon" */ './views/Blogs/ComingSoon')
         }
     ]
 })

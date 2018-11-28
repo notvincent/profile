@@ -22,7 +22,7 @@
                 </div>
             </div>
         </router-link>
-        <router-link :to="{name: 'zp_analysis'}">
+        <router-link :to="{name: 'coming_soon'}">
             <div class="blog-card">
                 <div class="image-container">
                     <img src="../assets/blogs/zwift_power/cover.jpg">
