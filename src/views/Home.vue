@@ -88,6 +88,7 @@
     }
     #cover-img {
         width: 100%;
+        margin-top: $navbar-height-negative;
     }
     .section {
         display: flex;

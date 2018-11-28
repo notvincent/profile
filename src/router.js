@@ -4,6 +4,9 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 export default new Router({
+    scrollBehavior () {
+        return { x: 0, y: 0 }
+    },
     routes: [
         {
             path: '/',
@@ -29,6 +32,11 @@ export default new Router({
             path: '/zp_analysis',
             name: 'zp_analysis',
             component: () => import(/* webpackChunkName: "ZpAnalysis" */ './views/Blogs/ZpAnalysis')
+        },
+        {
+            path: '/everesting_by_the_numbers',
+            name: 'everesting_by_the_numbers',
+            component: () => import(/* webpackChunkName: "EverestingByTheNumbers" */ './views/Blogs/EverestingByTheNumbers')
         },
         {
             path: '/coming_soon',

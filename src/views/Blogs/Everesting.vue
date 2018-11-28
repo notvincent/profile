@@ -9,7 +9,8 @@
                 7250 calories my roommate <a class="default"
                                              href="https://www.strava.com/athletes/4619234?oq=eva">Evan</a> and I
                 completed our 23<sup>rd</sup> rep
-                of the <a class="default" href="https://www.strava.com/segments/18389384?filter=overall">Zwift world championship reverse KOM </a>and ticked over the magic
+                of the <a class="default" href="https://www.strava.com/segments/18389384?filter=overall">Zwift world
+                    championship reverse KOM </a>and ticked over the magic
                 8848m of elevation gain in one ride: the height of Everest.</p>
             <h2>What is Everesting?</h2>
             <p>Everesting has become a term coined
@@ -25,7 +26,8 @@
                 and in reality, we were too scared). Then one weekend in the fall we started to
                 toss around the idea of doing a virtual Everesting attempt, and fully committed
                 to the plan when we realized no one has Everested on Innsbruck giving us the
-                opportunity to get our names in the <a class="default" href="https://everesting.cc/">everesting.cc </a>hall of fame board.</p>
+                opportunity to get our names in the <a class="default" href="https://everesting.cc/">everesting.cc </a>hall
+                of fame board.</p>
             <h2>Chunk 1: 0-2388m</h2>
             <p>I woke up at 6:00am despite my
                 alarm being set to 6:30 in anticipation of the day ahead of me. Took my morning
@@ -40,6 +42,9 @@
                 Gatorade and 12 cookies later, we had done 6 reps and it was time for the first
                 break (throw the pogo sticks in the microwave).</p>
             <h2>Chunk 2: 2388-4378m</h2>
+            <div class="image-container">
+                <img src="../../assets/blogs/everesting/everesting_5hrs_deep.jpg">
+            </div>
             <p>Most people choose to sleep in on Saturdays
                 and don’t get out of their beds and hop on their bikes at 7am. The rest of the
                 world seemed to wake up during this chunk because I got a few “What are you
@@ -47,7 +52,7 @@
                 message interrupting my focus, this chunk was largely spent watching Legolas
                 fight off orcs while I tried my best to ignore my legs and heart rate. Another
                 2 bottles of Gatorade and 12 cookies brought us to the second break, 11 reps in
-                and almost half way. Time for some friend dumplings, something I’ve been
+                and almost half way. Time for some fried dumplings, something I’ve been
                 craving since the start of rep 7.</p>
             <p>Having Evan there riding with me at this
                 point was key, had I been on my own I probably wouldn’t have gotten back on the
@@ -62,7 +67,8 @@
                 as a race day food. My mind was also not quite up to the task and I was just waiting
                 for Evan to say “that’s enough” so I could jump on the opportunity and call it
                 a day. However, the only words coming out of Evan’s mouth at the time where him
-                reciting Aragorn’s “<a class="default" href="https://www.youtube.com/watch?v=kzvAAAHVFBI">ride out with me</a>” speech during the battle of Helm’s
+                reciting Aragorn’s “<a class="default" href="https://www.youtube.com/watch?v=kzvAAAHVFBI">ride out with
+                    me</a>” speech during the battle of Helm’s
                 Deep.</p>
             <h2>Chunk 4: 5970-7960m</h2>
             <p>At this point I was too invested in the task
@@ -93,8 +99,10 @@
                 you to a point you’re happy with and make small incremental changes each day.</p>
             <p>This was the most physically challenging thing
                 I’ve ever done and I’m in no rush to do another Everest attempt any time soon.
-                For full details of the day you can check out the activity on <a class="default" href="https://www.strava.com/activities/1970815492">Strava</a>.
-                If you want to see an analysis on my everesting attempt checkout my other post <router-link class="default" :to="{name: 'coming_soon'}">Everest: By the Numbers</router-link>
+                For full details of the day you can check out the activity on <a class="default"
+                                                                                 href="https://www.strava.com/activities/1970815492">Strava</a>.
+                If you want to see an analysis on my everesting attempt checkout my other post
+                <router-link class="default" :to="{name: 'everesting_by_the_numbers'}">Everest: By the Numbers</router-link>
             </p>
         </div>
     </div>
@@ -108,4 +116,19 @@
 
 <style scoped lang="scss">
     @import "blog.scss";
+
+    h1, h2 {
+        text-align: center;
+    }
+    .image-container {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        img {
+            width: 100%;
+            max-height: 250px;
+            object-fit: contain;
+        }
+    }
+
 </style>

@@ -1,16 +1,5 @@
 <template>
     <div class="container">
-        <router-link :to="{name: 'ftp_booster'}">
-            <div class="blog-card">
-                <div class="image-container">
-                    <img src="../assets/blogs/ftp_booster.png">
-                </div>
-                <div class="content-container">
-                    <h2>Zwift 4 Week FTP Booster Review</h2>
-                    <p>Over the month of January I boosted my FTP by 40 watts in one month following a Zwift training plan. Here's my thoughts on what it's like to follow a training plan religiously.</p>
-                </div>
-            </div>
-        </router-link>
         <router-link :to="{name: 'everesting'}">
             <div class="blog-card">
                 <div class="image-container">
@@ -19,6 +8,28 @@
                 <div class="content-container">
                     <h2>Everesting on Zwift Innsbruck</h2>
                     <p>Riding up hill for 12 hours! Sounds like my kind of challenge! Here's the story of how I became the first person to Everest Innsbruck.</p>
+                </div>
+            </div>
+        </router-link>
+        <router-link :to="{name: 'everesting_by_the_numbers'}">
+            <div class="blog-card">
+                <div class="image-container">
+                    <img style="max-height: 300px;" src="../assets/blogs/everesting/svg/001-mountains.svg">
+                </div>
+                <div class="content-container">
+                    <h2>Everesting: by the numbers</h2>
+                    <p>Everesting was no small feet, (it was actually 29029). Here are some stats behind the epic ride</p>
+                </div>
+            </div>
+        </router-link>
+        <router-link :to="{name: 'ftp_booster'}">
+            <div class="blog-card">
+                <div class="image-container">
+                    <img src="../assets/blogs/ftp_booster.png">
+                </div>
+                <div class="content-container">
+                    <h2>Zwift 4 Week FTP Booster Review</h2>
+                    <p>Over the month of January I boosted my FTP by 40 watts in one month following a Zwift training plan. Here's my thoughts on what it's like to follow a training plan religiously.</p>
                 </div>
             </div>
         </router-link>
@@ -54,8 +65,13 @@
         @include respond-below(sm) {
             flex-direction: column;
         }
-        img {
+        .image-container {
             flex-basis: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
             width: 100%;
             max-width: 500px;
             filter: grayscale(100%);
