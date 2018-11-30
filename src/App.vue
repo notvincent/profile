@@ -21,7 +21,7 @@
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        font-family: 'Poppins';
+        font-family: $default-font;
         color: $primary-accent-dark;
         margin-top: $navbar-height;
     }

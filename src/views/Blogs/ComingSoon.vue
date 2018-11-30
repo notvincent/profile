@@ -1,12 +1,17 @@
 <template>
     <div class="cover center">
-        <h1>Coming Soon</h1>
+        <div class="container center">
+            <h1>Coming Soon</h1>
+            <mailchimp></mailchimp>
+        </div>
     </div>
 </template>
 
 <script>
+    import mailchimp from '../../components/mailchimp'
     export default {
-        name: "ComingSoon"
+        name: "ComingSoon",
+        components: {mailchimp}
     }
 </script>
 
@@ -20,6 +25,7 @@
     }
     .center {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

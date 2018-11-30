@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <h1>What it took to climb the 8848m</h1>
         <div class="grid">
             <div class="cell">
                 <div class="svg-wrapper">
@@ -72,18 +73,23 @@
                 <p>Of Lord of the Rings Watched</p>
             </div>
         </div>
+        <mailchimp></mailchimp>
     </div>
 </template>
 
 <script>
+    import mailchimp from '../../components/mailchimp'
     export default {
-        name: "EverestingByTheNumbers"
+        name: "EverestingByTheNumbers",
+        components: {mailchimp}
     }
 </script>
 
 <style scoped lang="scss">
     @import "blog.scss";
-
+    .container {
+        text-align: center;
+    }
     .grid {
         display: flex;
         flex-wrap: wrap;

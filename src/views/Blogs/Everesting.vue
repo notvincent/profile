@@ -104,13 +104,16 @@
                 If you want to see an analysis on my everesting attempt checkout my other post
                 <router-link class="default" :to="{name: 'everesting_by_the_numbers'}">Everest: By the Numbers</router-link>
             </p>
+            <mailchimp></mailchimp>
         </div>
     </div>
 </template>
 
 <script>
+    import mailchimp from '../../components/mailchimp'
     export default {
-        name: "Everesting"
+        name: "Everesting",
+        components: {mailchimp}
     }
 </script>
 
