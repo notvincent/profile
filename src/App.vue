@@ -2,14 +2,16 @@
     <div id="app">
         <navbar></navbar>
         <router-view/>
+        <social></social>
     </div>
 </template>
 
 <script>
     import navbar from './components/navbar'
+    import social from './components/SocialMedia'
     export default {
         name: "App",
-        components: {navbar}
+        components: {navbar, social}
     }
 </script>
 

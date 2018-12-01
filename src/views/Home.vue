@@ -101,13 +101,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-basis: 50%;
+            width: 40%; @include respond-below(sm) {width: 100%}
             h1 {
-                font-size: 3em;
+                font-size: 2em;
+                @include respond-below(md) {font-size: 1.5em}
+                @include respond-below(sm) {font-size: 3em}
             }
         }
         .section-content {
-            flex-basis: 50%;
+            width: calc(60% - 3px); @include respond-below(sm) {width: calc(100% - 80px)}
             border-left: 3px solid $secondary-accent;
             padding: 0 40px;
         }
