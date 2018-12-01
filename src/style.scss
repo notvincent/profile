@@ -9,12 +9,12 @@ $default-font: 'Poppins';
 
 .container {
   max-width: 1400px;
-  padding: 20px 80px;
+  padding: 20px 200px;
   @include respond-below(lg) {
-    padding: 20px 40px;
+    padding: 20px 200px;
   }
   @include respond-below(md) {
-    padding: 20px 30px;
+    padding: 20px 100px;
   }
   @include respond-below(sm) {
     padding: 10px 15px;

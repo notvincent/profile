@@ -18,7 +18,7 @@
                 </div>
                 <div class="content-container">
                     <h2>Everesting: by the numbers</h2>
-                    <p>Everesting was no small feet, (it was actually 29029). Here are some stats behind the epic ride</p>
+                    <p>Everesting was no small feet, (it was actually 29029 ft.). Here are some stats behind the epic ride.</p>
                 </div>
             </div>
         </router-link>
