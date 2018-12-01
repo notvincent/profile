@@ -49,7 +49,11 @@
 
 <script>
     export default {
-        name: "Blog"
+        name: "Blog",
+        created: () => {
+            document.head.querySelector('meta[name=description]').content = "Blogs written by Oliver Dowd mainly focused on his lifestyle of climbing and cycling"
+            document.title = "Blog - Oliver Dowd"
+        }
     }
 </script>
 

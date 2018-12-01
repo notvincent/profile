@@ -77,7 +77,11 @@
 
 <script>
     export default {
-        name: 'home'
+        name: 'home',
+        created: () => {
+            document.head.querySelector('meta[name=description]').content = "Oliver Dowd is a web developer based in southern Ontario. He's also a passionate cyclist and climber and writes bi-weekly blogs on either subject."
+            document.title = "Home - Oliver Dowd"
+        }
     }
 </script>
 

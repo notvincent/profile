@@ -11,7 +11,11 @@
     import mailchimp from '../../components/mailchimp'
     export default {
         name: "ComingSoon",
-        components: {mailchimp}
+        components: {mailchimp},
+        created: () => {
+            document.head.querySelector('meta[name=description]').content = "Blog post soon to come"
+            document.title = "Coming Soon - Oliver Dowd"
+        }
     }
 </script>
 

@@ -102,7 +102,8 @@
                 For full details of the day you can check out the activity on <a class="default"
                                                                                  href="https://www.strava.com/activities/1970815492">Strava</a>.
                 If you want to see an analysis on my everesting attempt checkout my other post
-                <router-link class="default" :to="{name: 'everesting_by_the_numbers'}">Everest: By the Numbers</router-link>
+                <router-link class="default" :to="{name: 'everesting_by_the_numbers'}">Everest: By the Numbers
+                </router-link>
             </p>
             <mailchimp></mailchimp>
         </div>
@@ -111,9 +112,14 @@
 
 <script>
     import mailchimp from '../../components/mailchimp'
+
     export default {
         name: "Everesting",
-        components: {mailchimp}
+        components: {mailchimp},
+        created: () => {
+            document.head.querySelector('meta[name=description]').content = "The story of how Evan and Oliver became the first people to virtually Everest on the Zwift Innsbruck map"
+            document.title = "Virtual Everesting - Oliver Dowd"
+        }
     }
 </script>
 
@@ -123,6 +129,7 @@
     h1, h2 {
         text-align: center;
     }
+
     .image-container {
         width: 100%;
         justify-content: center;

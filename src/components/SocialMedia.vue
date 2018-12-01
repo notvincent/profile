@@ -6,6 +6,9 @@
         <a target="_blank" href="https://www.strava.com/athletes/5114942">
             <img src="../assets/strava.png">
         </a>
+        <a target="_blank" href="https://github.com/notvincent">
+            <img src="../assets/github.svg">
+        </a>
     </div>
 </template>
 
@@ -53,7 +56,7 @@
         }
         img:hover {
             filter: grayscale(0%);
-            opacity: 0.6;
+            opacity: 1;
         }
     }
 </style>

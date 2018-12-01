@@ -92,7 +92,11 @@
     import mailchimp from '../../components/mailchimp'
     export default {
         name: "FtpBooster",
-        components: {mailchimp}
+        components: {mailchimp},
+        created: () => {
+            document.head.querySelector('meta[name=description]').content = "The story of how Oliver increased his FTP by 0.8 w/kg in just one month using the Zwift FTP bosster training plan"
+            document.title = "Zwift FTP Booster - Oliver Dowd"
+        }
     }
 </script>
 
