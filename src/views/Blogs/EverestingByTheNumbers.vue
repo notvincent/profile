@@ -27,7 +27,7 @@
                 <div class="svg-wrapper">
                     <img src="../../assets/blogs/everesting/svg/005-like.svg">
                 </div>
-                <h1>216 bpm</h1>
+                <h1>142 bpm</h1>
                 <p>Average heart rate up the climb</p>
             </div>
             <div class="cell">
