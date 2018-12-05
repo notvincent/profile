@@ -43,5 +43,11 @@ export default new Router({
             name: 'coming_soon',
             component: () => import(/* webpackChunkName: "ComingSoon" */ './views/Blogs/ComingSoon')
         }
-    ]
+    ],
+    afterEach (to) {
+        /* eslint-disable */
+        ga('set', 'page', to.path)
+        ga('send', 'pageview')
+        /* eslint-enable */
+    }
 })

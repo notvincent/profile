@@ -43,6 +43,9 @@
     .mc-form {
         display: flex;
         justify-content: center;
+        h2 {
+            color: $secondary-accent;
+        }
     }
     .input-group {
         display: flex;
