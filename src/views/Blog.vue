@@ -1,5 +1,16 @@
 <template>
     <div class="container">
+        <router-link :to="{name: 'zp_analysis'}">
+            <div class="blog-card">
+                <div class="image-container">
+                    <img src="../assets/blogs/zwift_power/cover.jpg">
+                </div>
+                <div class="content-container">
+                    <h2>Zwiftpower Rankings Analysis</h2>
+                    <p>A report on the current Zwift Power ranking system</p>
+                </div>
+            </div>
+        </router-link>
         <router-link :to="{name: 'everesting'}">
             <div class="blog-card">
                 <div class="image-container">
@@ -30,17 +41,6 @@
                 <div class="content-container">
                     <h2>Zwift 4 Week FTP Booster Review</h2>
                     <p>Over the month of January I boosted my FTP by 40 watts in one month following a Zwift training plan. Here's my thoughts on what it's like to follow a training plan religiously.</p>
-                </div>
-            </div>
-        </router-link>
-        <router-link :to="{name: 'zp_analysis'}">
-            <div class="blog-card">
-                <div class="image-container">
-                    <img src="../assets/blogs/zwift_power/cover.png">
-                </div>
-                <div class="content-container">
-                    <h2>Zwiftpower Rankings Analysis</h2>
-                    <p>A report on the current Zwift Power ranking system</p>
                 </div>
             </div>
         </router-link>
