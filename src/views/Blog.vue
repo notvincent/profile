@@ -36,7 +36,7 @@
         <router-link :to="{name: 'zp_analysis'}">
             <div class="blog-card">
                 <div class="image-container">
-                    <img src="../assets/blogs/zwift_power/cover.jpg">
+                    <img src="../assets/blogs/zwift_power/cover.png">
                 </div>
                 <div class="content-container">
                     <h2>Zwiftpower Rankings Analysis</h2>
