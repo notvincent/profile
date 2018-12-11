@@ -105,17 +105,19 @@
                 <router-link class="default" :to="{name: 'everesting_by_the_numbers'}">Everest: By the Numbers
                 </router-link>
             </p>
-            <mailchimp></mailchimp>
+            <mailchimp/>
+            <mailchimp-modal/>
         </div>
     </div>
 </template>
 
 <script>
     import mailchimp from '../../components/mailchimp'
+    import mailchimpModal from '../../components/mailchimp_modal'
 
     export default {
         name: "Everesting",
-        components: {mailchimp},
+        components: {mailchimp, mailchimpModal},
         created: () => {
             document.head.querySelector('meta[name=description]').content = "The story of how Evan and Oliver became the first people to virtually Everest on the Zwift Innsbruck map"
             document.title = "Virtual Everesting - Oliver Dowd"

@@ -84,15 +84,17 @@
             <p>Riding almost everyday is not only logistically challenging, but also mentally exhausting. During the month I was only climbing once a week and I did notice a bit of loss of upper body strength (especially while looking in the mirror). I’m now moving onto my next training block which will be focused more on endurance and will probably only be 4-5 rides a week but more volume. I’m also looking forward to being able to dedicate some more time to climbing.</p>
             <p>If you want to see how my endurance training is going follow me on <a class="default" href="https://www.strava.com/athletes/5114942">Strava</a>.</p>
         </div>
-        <mailchimp></mailchimp>
+        <mailchimp/>
+        <mailchimp-modal/>
     </div>
 </template>
 
 <script>
     import mailchimp from '../../components/mailchimp'
+    import mailchimpModal from '../../components/mailchimp_modal'
     export default {
         name: "FtpBooster",
-        components: {mailchimp},
+        components: {mailchimp, mailchimpModal},
         created: () => {
             document.head.querySelector('meta[name=description]').content = "The story of how Oliver increased his FTP by 0.8 w/kg in just one month using the Zwift FTP bosster training plan"
             document.title = "Zwift FTP Booster - Oliver Dowd"

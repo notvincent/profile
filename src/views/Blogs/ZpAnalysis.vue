@@ -87,15 +87,17 @@
             </div>
         </div>
         <mailchimp></mailchimp>
+        <mailchimp-modal/>
     </div>
 </template>
 
 <script>
     import mailchimp from '../../components/mailchimp'
+    import mailchimpModal from '../../components/mailchimp_modal'
 
     export default {
         name: "ZpAnalysis",
-        components: {mailchimp},
+        components: {mailchimp, mailchimpModal},
         created: () => {
             document.head.querySelector('meta[name=description]').content = "An analysis on the rider population on zwift power, and what it takes to be a top level racer"
             document.title = "Zwift Power Analysis - Oliver Dowd"

@@ -122,16 +122,18 @@
                 </div>
             </div>
         </div>
-        <mailchimp></mailchimp>
+        <mailchimp/>
+        <mailchimp-modal/>
     </div>
 </template>
 
 <script>
     import mailchimp from '../../components/mailchimp'
+    import mailchimpModal from '../../components/mailchimp_modal'
 
     export default {
         name: "EverestingByTheNumbers",
-        components: {mailchimp},
+        components: {mailchimp, mailchimpModal},
         created: () => {
             document.head.querySelector('meta[name=description]').content = "Digging into the numbers, and stats behind the effort it took to become the first person to Everest on Zwift in Innsbruck."
             document.title = "Stats - Virtual Everesting"
