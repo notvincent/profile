@@ -11,11 +11,22 @@
                         <h2>Software Developer</h2>
                         <h3>Freshii</h3>
                         <h4>September 2018 - December 2018</h4>
+                        <ul>
+                            <li>Helped develop the Freshii 2.0 website, where I played a large role in implementing multi-lingual support, and user location settings</li>
+                            <li>Lead the SEO effort for the newly released Freshii 2.0 web app</li>
+                            <li>Created many unique and responsive content pages based on specifications provided by designers</li>
+                            <li>Took part and occasionally lead the PO review process for Web, Android, and IOS application</li>
+                        </ul>
                     </div>
                     <div class="content-container">
                         <h2>Catastrophe Modeling Application Developer</h2>
                         <h3>Validus Research</h3>
                         <h4>January 2018 - April 2018</h4>
+                        <ul>
+                            <li>Helped release the MVP of an in-house data analytics tool</li>
+                            <li>Played a large role in the process of continuous bug fixes before and after release</li>
+                            <li>Was in direct contact with end users, and ensured any features requested where implemented</li>
+                        </ul>
                     </div>
                     <div class="content-container">
                         <h2>Data Analyst</h2>
@@ -59,7 +70,7 @@
                 <div class="section-content">
                     <div class="content-container">
                         <h2>Web</h2>
-                        <p>Javascript, Html, Css, VueJs, Flask, Heroku</p>
+                        <p>Javascript, Html, CSS, SCSS, VueJs, Flask</p>
                     </div>
                     <div class="content-container">
                         <h2>Languages</h2>
@@ -125,6 +136,9 @@
         }
         h2 {
             color: $secondary-accent;
+        }
+        li {
+            font-weight: 300;
         }
     }
 </style>
