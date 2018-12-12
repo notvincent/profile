@@ -32,11 +32,11 @@
                         <h2>Data Analyst</h2>
                         <h3>CIBC Capital Markets</h3>
                         <h4>January 2017 - April 2017</h4>
-                    </div>
-                    <div class="content-container">
-                        <h2>Data Analyst</h2>
-                        <h3>Adknown</h3>
-                        <h4>January 2016 - April 2016</h4>
+                        <ul>
+                            <li>Lead the creation of a new data pipeline process, which combed through millions of monthly trades and created reports for clients</li>
+                            <li>Helped maintain software which was vital in keeping the trading floor running by fixing bugs</li>
+                            <li>Preformed daily tasks to generate daily and monthly reports without error</li>
+                        </ul>
                     </div>
                 </div>
             </div>
