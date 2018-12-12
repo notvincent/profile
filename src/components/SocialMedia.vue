@@ -1,5 +1,8 @@
 <template>
     <div id="media-container">
+        <a target="_blank" href="https://www.linkedin.com/in/oliver-dowd-6a6791108/">
+            <img src="../assets/linkedin.png">
+        </a>
         <a target="_blank" href="https://www.instagram.com/oliver.dowd/">
             <img src="../assets/instagram.png">
         </a>
