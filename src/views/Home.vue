@@ -13,7 +13,7 @@
                         <h4>September 2018 - December 2018</h4>
                         <ul>
                             <li>Helped develop the Freshii 2.0 website, where I played a large role in implementing multi-lingual support, and user location settings</li>
-                            <li>Lead the SEO effort for the newly released Freshii 2.0 web app</li>
+                            <li>Lead the SEO effort for the newly released Freshii 2.0 web app, which saw a 20% increase in click through the weeks following my optimizations</li>
                             <li>Created many unique and responsive content pages based on specifications provided by designers</li>
                             <li>Took part and occasionally lead the PO review process for Web, Android, and IOS application</li>
                         </ul>
