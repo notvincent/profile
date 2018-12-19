@@ -13,7 +13,6 @@
         ga('create', 'UA-130203185-1', 'auto');
         ga('send', 'pageview');
     </script>
-
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +20,7 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>Oliver Dowd</title>
     <meta name="description" content="Oliver Dowd's portfolio. Including professional experience, and Blog posts.">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 <noscript>
@@ -28,6 +28,10 @@
         continue.</strong>
 </noscript>
 <div id="app"></div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <!-- built files will be auto injected -->
 </body>
 </html>

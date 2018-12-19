@@ -10,7 +10,7 @@
                     <h1>Professional</h1>
                 </div>
                 <div class="section-content">
-                    <div class="content-container">
+                    <div class="content-container" data-aos="fade-right">
                         <h2>Software Developer</h2>
                         <h3>Freshii</h3>
                         <h4>September 2018 - December 2018</h4>
@@ -21,7 +21,7 @@
                             <li>Took part and occasionally lead the PO review process for Web, Android, and IOS application</li>
                         </ul>
                     </div>
-                    <div class="content-container">
+                    <div class="content-container" data-aos="fade-left">
                         <h2>Catastrophe Modeling Application Developer</h2>
                         <h3>Validus Research</h3>
                         <h4>January 2018 - April 2018</h4>
@@ -31,7 +31,7 @@
                             <li>Was in direct contact with end users, and ensured any features requested where implemented</li>
                         </ul>
                     </div>
-                    <div class="content-container">
+                    <div class="content-container" data-aos="fade-right">
                         <h2>Data Analyst</h2>
                         <h3>CIBC Capital Markets</h3>
                         <h4>January 2017 - April 2017</h4>
@@ -51,13 +51,13 @@
                     <h1>Projects</h1>
                 </div>
                 <div class="section-content">
-                    <div class="content-container">
+                    <div class="content-container" data-aos="fade-left">
                         <a href="https://climb-to.herokuapp.com/#/">
                             <h2>ClimbTo</h2>
                         </a>
                         <p>ClimbTo is a webapp that aims to provide people with the most up to date information about their local climbing gyms. The crux of the problem is; climbing gyms redo all their routes each week, and ClimbTo aims to provide constantly updated information.</p>
                     </div>
-                    <div class="content-container">
+                    <div class="content-container" data-aos="fade-right">
                         <h2>ESTUARY LIFE</h2>
                         <p>Estuary life is a medical marijuana retail site created on Squarespace. I was contracted to work with a professional designer on this project and implement the design that they had created.</p>
                     </div>
@@ -71,15 +71,15 @@
                     <h1>Technologies</h1>
                 </div>
                 <div class="section-content">
-                    <div class="content-container">
+                    <div class="content-container" data-aos="fade-left">
                         <h2>Web</h2>
                         <p>Javascript, Html, CSS, SCSS, VueJs, Flask</p>
                     </div>
-                    <div class="content-container">
+                    <div class="content-container" data-aos="fade-right">
                         <h2>Languages</h2>
                         <p>Python, C, C++, SQL, Javascript</p>
                     </div>
-                    <div class="content-container">
+                    <div class="content-container" data-aos="fade-left">
                         <h2>Misc</h2>
                         <p>Git, Jetbrains Suite, Photoshop, Lightroom</p>
                     </div>
