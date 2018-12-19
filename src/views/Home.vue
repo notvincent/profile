@@ -1,6 +1,9 @@
 <template>
     <div class="home">
-        <img id="cover-img" src="../assets/cover.jpg"/>
+        <div id="cover-img">
+            <img src="../assets/cover.jpg"/>
+        </div>
+
         <div class="container">
             <div class="section">
                 <div class="section-title">
@@ -104,6 +107,12 @@
     #cover-img {
         width: 100%;
         margin-top: $navbar-height-negative;
+        img {
+            width: 100%;
+            object-fit: cover;
+            object-position: bottom;
+            max-height: 800px;
+        }
     }
     .section {
         display: flex;
